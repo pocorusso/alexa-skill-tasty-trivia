@@ -1,5 +1,5 @@
 "use strict";
-var APP_ID = amzn1.ask.skill.b36435e9-faaf-493d-bc6e-aa35f84b4bf0;  // TODO replace with your app ID (OPTIONAL).
+var APP_ID = "amzn1.ask.skill.b36435e9-faaf-493d-bc6e-aa35f84b4bf0";  // TODO replace with your app ID (OPTIONAL).
 
 var ANSWER_COUNT = 4; // The number of possible answers per trivia question.
 var GAME_LENGTH = 5;  // The number of questions per trivia game.
@@ -45,13 +45,13 @@ var languageString = {
     "en-US": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_US"],
-            "GAME_NAME" : "American Tasty Trivia" // Be sure to change this for your skill.
+            "GAME_NAME" : "Tasty Trivia" // Be sure to change this for your skill.
         }
     },
     "en-GB": {
         "translation": {
             "QUESTIONS" : questions["QUESTIONS_EN_GB"],
-            "GAME_NAME" : "British Tasty Trivia" // Be sure to change this for your skill.
+            "GAME_NAME" : "Tasty Trivia" // Be sure to change this for your skill.
         }
     },
     "de": {
@@ -84,7 +84,7 @@ var languageString = {
 };
 
 var Alexa = require("alexa-sdk");
-var APP_ID = amzn1.ask.skill.b36435e9-faaf-493d-bc6e-aa35f84b4bf0;  // TODO replace with your app ID (OPTIONAL).
+//var APP_ID = amzn1.ask.skill.b36435e9-faaf-493d-bc6e-aa35f84b4bf0;  // TODO replace with your app ID (OPTIONAL).
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
