@@ -1,4 +1,4 @@
 # alexa-skill-tasty-trivia
-A sample trivia game using alexa-sdk on AWS lambda
+A sample Alexa trivia game using alexa-sdk on node.js 
 
 Based on https://github.com/alexa/skill-sample-nodejs-trivia
